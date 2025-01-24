@@ -1,0 +1,48 @@
+h1 {
+  color: deeppink;
+  font-size: 36px;
+  background-color: rgb(245, 189, 219);
+  font-family:'Times New Roman', Times, serif;
+  padding-left:10px;
+  border:2px solid deeppink;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
+#introduccio {
+  color: rgb(255, 0, 183)9);
+}
+colorrosa {
+  color:deeppink;
+}
+
+.capçalera{
+  grid-area: c;
+}
+
+.contingut{
+  grid-area: o;
+  padding: 10px;
+}
+
+.lateral{
+  grid-area: l;
+}
+
+.peu{
+  grid-area: p;
+}
+
+.principal{
+  display:grid;
+  grid-gap:5px;
+  grid-template-rows: 100px auto 40px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 
+   "c c"
+   "o l"
+   "p p";
+}
